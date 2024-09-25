@@ -15,7 +15,7 @@ const Home = () => {
         </div>
 
         <img
-          className="md:ml-4 transform translate-x-10 md:translate-x-20 md:-rotate-45 md:translate-y-1 md:scale-[1.2] lg:scale-[1.5] object-cover"
+          className="md:ml-4 z-[-1] transform translate-x-10 md:translate-x-20 md:-rotate-45 md:translate-y-1 md:scale-[1.2] lg:scale-[1.5] object-cover"
           src="/home-mob-svg.svg"
           alt="Pradhnya Foods"
         />
