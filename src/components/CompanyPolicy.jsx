@@ -20,7 +20,7 @@ const CompanyPolicy = () => {
           Company Policy
         </h1>
 
-        <div className="space-y-16">
+        <div className="space-y-16 overflow-hidden">
           {/* Vision Section */}
           <motion.div
             className="flex flex-col lg:flex-row items-center lg:items-start gap-8"

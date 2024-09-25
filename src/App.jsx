@@ -6,10 +6,15 @@ import ServicesOffered from './components/ServicesOffered'
 import Footer from './components/Footer'
 import Servicesffered from './components/Servicesffered'
 import RecipeMason from './components/RecipeMason'
+import Home from './components/Home'
+// import Navbar from './components/Navbar'
+
 
 function App() {
   return (
     <>
+  
+    <Home/>
     <Servicesffered/>
     <Offerings/>
     {/* <RecipeMason/> */}

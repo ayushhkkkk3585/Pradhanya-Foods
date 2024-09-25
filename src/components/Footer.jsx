@@ -13,13 +13,13 @@ const Footer = () => {
   return (
     <>
       <div
-        className="h-96 w-full p-10"
+        className="h-full  w-full p-10"
         style={{ backgroundImage: `url(${bgimage})` }}
       >
         <div className="flex flex-col justify-center items-center">
           {/* Animated Heading */}
           <motion.h2
-            className="text-[#FFC450] inter-bold text-3xl"
+            className="text-[#FFC450] text-center inter-bold text-3xl"
             initial="hidden"
             animate="visible"
             variants={popIn}
@@ -29,7 +29,7 @@ const Footer = () => {
           
           {/* Animated Text */}
           <motion.p
-            className="text-[#9F9FB1] text-xl mt-3"
+            className="text-[#9F9FB1] text-center text-xl mt-3"
             initial="hidden"
             animate="visible"
             transition={{ delay: 0.2 }}

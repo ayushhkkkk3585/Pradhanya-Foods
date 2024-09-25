@@ -22,7 +22,7 @@ const ServiceItem = ({ Icon, title, description }) => (
 const ServicesOffered = () => {
   return (
     <motion.div
-      className="bg-[#6BBF0D] p-4 sm:p-6 lg:p-8 shadow-lg"
+      className="bg-[#6BBF0D] p-4 mt-8 sm:p-6 lg:p-8 shadow-lg"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
