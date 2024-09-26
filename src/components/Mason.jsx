@@ -15,7 +15,7 @@ const Mason = () => {
           Glimpse Of US
         </h1>
         <h2 className="text-base md:text-xl lg:text-2xl">
-          "Want to satisfy your cravings? Don't worry, Pradhnya is here"
+          "Want to satisfy your cravings? Don't worry, Pradhanya is here"
         </h2>
       </motion.div>
 

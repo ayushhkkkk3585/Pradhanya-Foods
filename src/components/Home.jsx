@@ -39,7 +39,7 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 1 }}
           >
-            with Pradhnya Foods
+            with Pradhanya Foods
           </motion.span>
         </motion.div>
 

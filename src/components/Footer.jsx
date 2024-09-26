@@ -59,7 +59,7 @@ const Footer = () => {
             transition={{ delay: 0.6 }}
             variants={popIn}
           >
-            pradhnyafoods@gmail.com
+            pradhanyafoods@gmail.com
           </motion.p>
         </div>
         

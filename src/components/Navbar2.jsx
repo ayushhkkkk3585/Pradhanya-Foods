@@ -12,7 +12,7 @@ const Navbar2 = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo or Website Name */}
         <div className="text-brown inter-bold  text-xl">
-          Pradhnya Foods
+          Pradhanya Foods
         </div>
         {/* Hamburger Icon for Mobile */}
         <div className="lg:hidden">
