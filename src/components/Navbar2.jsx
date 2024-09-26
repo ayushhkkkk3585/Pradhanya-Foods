@@ -11,7 +11,7 @@ const Navbar2 = () => {
     <nav className="bg-transparent  p-4">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo or Website Name */}
-        <div className="text-brown font-bold text-xl">
+        <div className="text-brown inter-bold  text-xl">
           Pradhnya Foods
         </div>
         {/* Hamburger Icon for Mobile */}
@@ -23,7 +23,7 @@ const Navbar2 = () => {
           </button>
         </div>
         {/* Menu Items for Large Screens */}
-        <ul className="hidden lg:flex space-x-4 text-brown">
+        <ul className="hidden inter-regular lg:flex space-x-4 text-brown">
           <li><a href="#home" className="hover:underline">Home</a></li>
           <li><a href="#services" className="hover:underline">Services</a></li>
           <li><a href="#offerings" className="hover:underline">Offerings</a></li>
@@ -33,7 +33,7 @@ const Navbar2 = () => {
 
       {/* Mobile Menu */}
       <div className={`lg:hidden ${isOpen ? "block" : "hidden"}`}>
-        <ul className="flex flex-col space-y-2 text-brown mt-4">
+        <ul className="flex inter-regular flex-col space-y-2 text-brown mt-4">
         <li><a href="#home" className="hover:underline">Home</a></li>
           <li><a href="#services" className="hover:underline">Services</a></li>
           <li><a href="#offerings" className="hover:underline">Offerings</a></li>
