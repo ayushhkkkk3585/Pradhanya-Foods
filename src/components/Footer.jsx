@@ -13,6 +13,7 @@ const Footer = () => {
   return (
     <>
       <div
+      id="contact"
         className="h-full  w-full p-10"
         style={{ backgroundImage: `url(${bgimage})` }}
       >
@@ -29,7 +30,7 @@ const Footer = () => {
           
           {/* Animated Text */}
           <motion.p
-            className="text-[#9F9FB1] text-center text-xl mt-3"
+            className="text-[#9F9FB1] text-center text-base mt-3"
             initial="hidden"
             animate="visible"
             transition={{ delay: 0.2 }}

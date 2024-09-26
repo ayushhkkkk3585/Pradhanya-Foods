@@ -15,20 +15,21 @@ const ServiceItem = ({ Icon, title, description }) => (
   >
     <Icon className="w-12 h-12 mb-2 text-white" />
     <h3 className="font-bold mb-1 text-lg md:text-xl">{title}</h3>
-    <p className="text-sm md:text-base">{description}</p>
+    <p className="text-sm md:text-base  text-white">{description}</p>
   </motion.div>
 );
 
 const ServicesOffered = () => {
   return (
     <motion.div
-      className="bg-[#6BBF0D] p-4 mt-8 sm:p-6 lg:p-8 shadow-lg"
+    id="services"
+      className="bg-[#6BBF0D] p-4 mt-3 sm:p-6 lg:p-8 shadow-lg"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
     >
       <motion.h2
-        className="text-xl sm:text-2xl font-bold mb-6 text-black text-center"
+        className="text-3xl sm:text-2xl font-bold mb-6 text-black  text-center"
         variants={fadeInUp}
       >
         Services Offered

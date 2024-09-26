@@ -39,6 +39,7 @@ const cardVariants = {
 // Single Offering Card Component with Hover Animations
 const OfferingCard = ({ type, image }) => (
   <motion.div
+  id="offerings"
     className="relative w-72 h-72 rounded-lg overflow-hidden shadow-md transition-transform duration-300"
     variants={cardVariants}
     whileHover={{

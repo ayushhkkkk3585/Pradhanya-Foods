@@ -25,8 +25,8 @@ const Navbar2 = () => {
         {/* Menu Items for Large Screens */}
         <ul className="hidden lg:flex space-x-4 text-brown">
           <li><a href="#home" className="hover:underline">Home</a></li>
-          <li><a href="#about" className="hover:underline">About</a></li>
           <li><a href="#services" className="hover:underline">Services</a></li>
+          <li><a href="#offerings" className="hover:underline">Offerings</a></li>
           <li><a href="#contact" className="hover:underline">Contact</a></li>
         </ul>
       </div>
@@ -34,9 +34,9 @@ const Navbar2 = () => {
       {/* Mobile Menu */}
       <div className={`lg:hidden ${isOpen ? "block" : "hidden"}`}>
         <ul className="flex flex-col space-y-2 text-brown mt-4">
-          <li><a href="#home" className="hover:underline">Home</a></li>
-          <li><a href="#about" className="hover:underline">About</a></li>
+        <li><a href="#home" className="hover:underline">Home</a></li>
           <li><a href="#services" className="hover:underline">Services</a></li>
+          <li><a href="#offerings" className="hover:underline">Offerings</a></li>
           <li><a href="#contact" className="hover:underline">Contact</a></li>
         </ul>
       </div>
