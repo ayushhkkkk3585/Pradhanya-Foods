@@ -8,12 +8,13 @@ const Navbar2 = () => {
   };
 
   return (
-    <nav className="bg-transparent  p-4">
+    <nav className="bg-transparent p-4">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo or Website Name */}
-        <div className="text-brown inter-bold  text-xl">
+        {/* <div className="text-brown inter-bold  text-xl">
           Pradhanya Foods
-        </div>
+        </div> */}
+        <img className="w-32 sm:w-36 md:w-40" src="/Pradhanya logo.png" alt="" />
         {/* Hamburger Icon for Mobile */}
         <div className="lg:hidden">
           <button onClick={toggleMenu} className="focus:outline-none">

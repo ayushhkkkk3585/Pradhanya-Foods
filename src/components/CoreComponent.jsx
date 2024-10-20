@@ -6,6 +6,7 @@ import Mason from './Mason'
 import CompanyPolicy from './CompanyPolicy'
 import Footer from './Footer'
 import Lenis from 'lenis'
+import ClientSection from './ClientSection'
 
 const CoreComponent = () => {
     useEffect(() => {
@@ -25,6 +26,7 @@ const CoreComponent = () => {
     <Offerings/>
     <Mason /> 
     <CompanyPolicy/>
+    <ClientSection/>
     <Footer/>
     
     
